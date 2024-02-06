@@ -1,4 +1,6 @@
-﻿namespace Sejm.Lib.Models.MP;
+﻿using Newtonsoft.Json;
+
+namespace Sejm.Lib.Models.MP;
 
 public class Member
 {
@@ -21,4 +23,9 @@ public class Member
     public string Voivodeship { get; set; }
     public string InactiveCause { get; set; }
     public string WaiverDesc { get; set; }
+
+    public override string ToString()
+    {
+        return JsonConvert.SerializeObject(this);
+    }
 }

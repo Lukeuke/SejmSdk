@@ -14,6 +14,6 @@ public class PrintsTests
 
         Console.WriteLine(print);
         
-        Assert.AreEqual(typeof(SejmPrintsModel), print?.GetType());
+        Assert.AreEqual(typeof(SejmPrintsModel), print.GetType());
     }
 }
