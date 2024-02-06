@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sejm.Lib", "Sejm.Lib\Sejm.Lib.csproj", "{0112D977-248C-4A60-B3E3-A41F159ED7B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sejm.Tests", "Sejm.Tests\Sejm.Tests.csproj", "{689BAF3F-D512-4C34-8ECE-5763732DA715}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0112D977-248C-4A60-B3E3-A41F159ED7B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0112D977-248C-4A60-B3E3-A41F159ED7B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0112D977-248C-4A60-B3E3-A41F159ED7B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0112D977-248C-4A60-B3E3-A41F159ED7B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689BAF3F-D512-4C34-8ECE-5763732DA715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689BAF3F-D512-4C34-8ECE-5763732DA715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689BAF3F-D512-4C34-8ECE-5763732DA715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689BAF3F-D512-4C34-8ECE-5763732DA715}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
