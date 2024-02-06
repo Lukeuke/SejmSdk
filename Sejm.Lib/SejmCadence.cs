@@ -3,7 +3,7 @@ using Sejm.Lib.Models.Cadence;
 
 namespace Sejm.Lib;
 
-public class SejmCadence : ISejmCadence
+public sealed class SejmCadence : ISejmCadence
 {
     /// <summary>
     /// Basic information's about cadence

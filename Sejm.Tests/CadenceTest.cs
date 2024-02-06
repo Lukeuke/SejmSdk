@@ -3,7 +3,7 @@ using Sejm.Lib.Models.Cadence;
 
 namespace Sejm.Tests;
 
-public class Tests
+public class CadenceTest
 {
     [Test]
     public async Task TestSejmCadenceType()
