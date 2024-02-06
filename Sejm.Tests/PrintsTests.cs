@@ -12,12 +12,8 @@ public class PrintsTests
 
         var print = await c.GetPrint(9, 23);
 
-        if (print?.GetType() == typeof(SejmPrintsModel))
-        {
-            Console.WriteLine(print);
-            Assert.Pass();
-        }
-
-        Assert.Fail();
+        Console.WriteLine(print);
+        
+        Assert.AreEqual(typeof(SejmPrintsModel), print?.GetType());
     }
 }

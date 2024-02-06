@@ -12,12 +12,7 @@ public class CadenceTest
 
         var cadence = await c.GetCadence(9);
 
-        if (cadence?.GetType() == typeof(Cadence))
-        {
-            Console.WriteLine(cadence);
-            Assert.Pass();
-        }
-
-        Assert.Fail();
+        Console.WriteLine(cadence);
+        Assert.AreEqual(typeof(Cadence), cadence?.GetType());
     }
 }
