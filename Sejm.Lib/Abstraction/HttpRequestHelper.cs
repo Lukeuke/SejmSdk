@@ -4,7 +4,7 @@ namespace Sejm.Lib.Abstraction;
 
 internal static class HttpRequestHelper
 {
-    public static async Task<T?> Request<T>(string requestUri)
+    internal static async Task<T?> Request<T>(string requestUri)
     {
         using var httpClient = new HttpClient();
 
